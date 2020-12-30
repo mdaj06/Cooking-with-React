@@ -7,7 +7,7 @@ export const ThemeContext = React.createContext()// context does not re render a
 
 
 function App() {
-  const[theme,setTheme] = useState('red')
+  const[theme,setTheme] = useState('yellow')
   return (
     <ThemeContext.Provider value={{backgroundColor:theme}}>
     <h1>Counter Class</h1>
